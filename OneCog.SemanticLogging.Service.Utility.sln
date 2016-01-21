@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.SemanticLogging.Service.Utility", "OneCog.SemanticLogging.Service.Utility\OneCog.SemanticLogging.Service.Utility.csproj", "{28995AC4-66E7-4C54-A7D2-2FC85CECA948}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.SemanticLogging.Service.Utility.Core", "OneCog.SemanticLogging.Service.Utility.Core\OneCog.SemanticLogging.Service.Utility.Core.csproj", "{88A109B7-2195-486E-B168-CE21849C9811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.SemanticLogging.Service.Utility.Core.Tests", "OneCog.SemanticLogging.Service.Utility.Core.Tests\OneCog.SemanticLogging.Service.Utility.Core.Tests.csproj", "{0E77B938-DB80-4402-93C3-B72373A456C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.Diagnostics.Tracing.Reactive", "OneCog.Diagnostics.Tracing.Reactive\OneCog.Diagnostics.Tracing.Reactive.csproj", "{DD3D6F94-8652-41CC-81A8-EF15E6471779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCog.Diagnostics.SemanticLogging", "OneCog.Diagnostics.SemanticLogging\OneCog.Diagnostics.SemanticLogging.csproj", "{A230D0F3-DF15-4190-9F25-01459A6B8290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{28995AC4-66E7-4C54-A7D2-2FC85CECA948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28995AC4-66E7-4C54-A7D2-2FC85CECA948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28995AC4-66E7-4C54-A7D2-2FC85CECA948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A109B7-2195-486E-B168-CE21849C9811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A109B7-2195-486E-B168-CE21849C9811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A109B7-2195-486E-B168-CE21849C9811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A109B7-2195-486E-B168-CE21849C9811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E77B938-DB80-4402-93C3-B72373A456C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E77B938-DB80-4402-93C3-B72373A456C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E77B938-DB80-4402-93C3-B72373A456C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E77B938-DB80-4402-93C3-B72373A456C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3D6F94-8652-41CC-81A8-EF15E6471779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3D6F94-8652-41CC-81A8-EF15E6471779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3D6F94-8652-41CC-81A8-EF15E6471779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3D6F94-8652-41CC-81A8-EF15E6471779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A230D0F3-DF15-4190-9F25-01459A6B8290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A230D0F3-DF15-4190-9F25-01459A6B8290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A230D0F3-DF15-4190-9F25-01459A6B8290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A230D0F3-DF15-4190-9F25-01459A6B8290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
